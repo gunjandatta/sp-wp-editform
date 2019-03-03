@@ -19,7 +19,7 @@
     "prod": "webpack --mode=production"
   },
   "dependencies": {
-    "gd-sprest-bs": "^1.8.1"
+    "gd-sprest-bs": "^1.8.2"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

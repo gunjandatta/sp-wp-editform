@@ -9,4 +9,4 @@ window["BSDemo"] = {
 };
 
 // Notify the SharePoint Script-on-Demand (SOD) Library
-window["SP"] ? window["SP"].SOD.notifyScriptLoadedAndExecuteWaitingJobs("bsDemo") : null;
+Helper.SP.SOD.notifyScriptLoadedAndExecuteWaitingJobs("bsDemo");

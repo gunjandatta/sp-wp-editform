@@ -2,7 +2,9 @@ import { SPTypes } from "gd-sprest";
 import { Components, WebParts } from "gd-sprest-bs";
 import { editForm, IBSDemoCfg } from "./wpCfg";
 
-// WebPart
+/**
+ * WebPart
+ */
 export const WebPart = () => {
     // Method to get the columns
     let getColumns = (cfg: IBSDemoCfg) => {
