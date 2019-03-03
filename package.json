@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Example SharePoint 2013/Online (Classic) webpart using hte gd-sprest-bs library.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gunjandatta/sp-wp-editform.git"
@@ -17,6 +14,10 @@
     "url": "https://github.com/gunjandatta/sp-wp-editform/issues"
   },
   "homepage": "https://github.com/gunjandatta/sp-wp-editform#readme",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
   "dependencies": {
     "gd-sprest-bs": "^1.8.1"
   },
