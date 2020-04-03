@@ -86,7 +86,7 @@ export const editForm: WebParts.IWPListEditForm = ((): WebParts.IWPListEditForm 
                 },
                 onControlRendered: (control) => {
                     // Save a reference to the control
-                    _ddl = control.get() as Components.IDropdown;
+                    _ddl = control.dropdown;
                 }
             } as Components.IFormControlPropsDropdown);
 
